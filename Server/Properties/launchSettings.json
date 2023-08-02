@@ -1,0 +1,25 @@
+{
+  "profiles": {
+    "launch": {
+      "applicationUrl": "http://localhost:5000;https://localhost:5001",
+      "commandName": "Project",
+      "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "watch": {
+      "applicationUrl": "http://localhost:5000;https://localhost:5001",
+      "commandLineArgs": "watch run",
+      "commandName": "Executable",
+      "executablePath": "dotnet",
+      "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
+      "launchBrowser": true,
+      "workingDirectory": "$(ProjectDir)",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
